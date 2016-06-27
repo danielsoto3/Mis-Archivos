@@ -1,0 +1,237 @@
+
+#ej{
+
+  width: 100%;
+  margin:0 auto;
+  height: 100%
+
+}
+
+article{
+  
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+
+  float: left;
+  width: 100%;
+  height: ;
+  background-color: grey;
+  margin:4px;
+  text-align: center;
+  height: 40%;
+  border-radius: 5px;
+}
+
+nav select{
+  
+  display: none;
+}
+
+nav ul {
+
+  display: inline;
+}
+
+#uno{
+
+  width: 100%
+  height:35%;
+background-color:yellow;
+}
+
+#dos{
+  width: 15%;
+  height: 30%;
+  background-color: orange;
+}
+
+#Tres{
+
+  width: 22%;
+  height: 55%;
+  background-color: blue;
+}
+
+#Cuatro{
+width: 25%;
+height: 35%;
+background-color: blue;
+
+}
+
+#cinco{
+width: 25%;
+height: 45%;
+background-color: blue;
+
+}
+
+#seis{
+  background-color: pink;
+}
+
+
+
+@media screen and (max-width: 936px){
+
+  #ej{
+
+    width: 100%
+    margin:0 auto;
+  }
+
+#uno{
+
+  width: 100%
+  height:35%;
+background-color:yellow;
+}
+
+#dos{
+  width: 20%;
+  height: 30%;
+  background-color: orange;
+}
+
+#Tres{
+
+  width: 35%;
+  height: 55%;
+  background-color: blue;
+}
+
+#Cuatro{
+width: 35%;
+height: 25%;
+background-color: blue;
+
+}
+
+#cinco{
+width: 35%;
+height: 25%;
+background-color: blue;
+
+}
+
+#seis{
+  background-color: pink;
+}
+
+
+select{
+  opacity: 0;
+}
+
+}
+
+
+}
+
+@media screen and (max-width: 600px){
+
+  #ej{
+
+    width: 100%
+    margin:0 auto;
+  }
+
+#uno{
+
+  width: 100%
+  height:35%;
+background-color:yellow;
+}
+
+#dos{
+  width: 100%;
+  height: 30%;
+  background-color: orange;
+}
+
+#Tres{
+
+  width: 100%;
+  height: 55%;
+  background-color: blue;
+}
+
+#Cuatro{
+width: 100%;
+height: 45%;
+background-color: blue;
+
+}
+
+#cinco{
+width: 100%;
+height: 25%;
+background-color: blue;
+
+}
+
+#seis{
+  background-color: pink;
+}
+
+nav ul{
+  display: none;
+}
+nav select{
+  display: inline;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+  #ej{
+
+    width: 100%
+    margin:0 auto;
+  }
+
+#uno{
+
+  width: 100%
+  height:35%;
+background-color:yellow;
+}
+
+#dos{
+  width: 100%;
+  height: 30%;
+  background-color: orange;
+}
+
+#Tres{
+
+  width: 100%;
+  height: 55%;
+  background-color: blue;
+}
+
+#Cuatro{
+width: 100%;
+height: 45%;
+background-color: blue;
+
+}
+
+#cinco{
+width: 100%;
+height: 25%;
+background-color: blue;
+
+}
+
+#seis{
+  background-color: pink;
+}
+
+ ul{
+  display: none;
+}
+
+}

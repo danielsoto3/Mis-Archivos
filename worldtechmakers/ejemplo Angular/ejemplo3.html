@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src=angular.min.js></script>
+
+  <title></title>
+</head>
+<body>
+
+<div ng-app ng-init=points=[1,15,19,2,40]>
+  
+<p> The Third result is{{points[2]}} </p>
+
+<div ng-app data-ng-init=names=['luz','liz','Ana']>
+  
+  <p>Looping Whit ng-repeat:</p>
+  <ul>
+    <li ng-repeat="x in names">
+      {{x}}
+    </li>
+  </ul>
+
+</div>
+
+</div>
+
+</body>
+</html>

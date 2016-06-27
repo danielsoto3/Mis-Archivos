@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Datos Personales</title>
+</head>
+<body>
+
+<fieldset>
+  
+  <legend>Datos Personales</legend>
+  <div>
+  <br>
+  <br>
+  <label>Nombre*:
+  <input required id="nombre" type="text" name="nombre"> 
+  </label>
+
+  <br>
+  <br>
+  <label>
+    Apellidos*:
+    <input required id="apellito" type="text" name="apellido">
+  </label>
+  <div id="Id">
+  <label>
+  
+    Tipo de Identificacion*:
+    <input type="datalist" name="id" list="identificacion" placeholder="selecciona tipo de identificacion">
+    <datalist id="identificacion">
+    <option value="Cedula de ciudadania"></option>
+    <option value="cedula extranjera"></option>
+    <option value="Tarjeta de Identidad"></option>
+    <option>Cedula temporal</option>
+    <option>Pasaporte</option>
+      
+
+    </datalist>
+  </label>
+  </div>
+  </div>
+</fieldset>
+
+</body>
+</html>
